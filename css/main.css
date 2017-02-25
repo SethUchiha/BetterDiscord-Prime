@@ -149,3 +149,24 @@ body {
     font-size: 20px;
 }
 
+.settings-inner, .settings-actions {
+    background: #4169E1 !important;
+    border: 6px solid !important;
+    border-color: #4169E1 !important;
+    opacity:0.8;
+}
+
+.tab-bar-header, .tab-bar {
+    background: #4169E1 !important;
+    opacity:0.8;
+}
+
+.tab-bar-item, .tab-bar-header {
+    color: black !important;
+}
+
+#settings-username, #settings-email, #settings-current-password, #settings-new-password {
+    border: 2px solid !important;
+    border-color: black !important;
+}
+
