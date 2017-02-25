@@ -47,7 +47,7 @@ body {
 }
 #,-username, #,-email, #,-current-password, .,-actions, .control-group > label, .control-group > input {
     border: none !important;
-    color: white !important;
+    color: blue !important;
 }
 .control-group > label > a, .help-text > a, .control-group > div > p > a, .tip > a, .region-select > button, .guild-,-modal-integrations-body.,-panel-with-header.no-integrations > p > a, .permissions-helpdesk, .disabled-for-everyone, .remove-button, .help-text > strong > a, .guild-,-modal-members-footer.,-panel-header > a, .empty > h4 {
     color: rgb(0, 192, 192) !important;
