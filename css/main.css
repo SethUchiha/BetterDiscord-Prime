@@ -179,6 +179,11 @@ body {
 	height: 102.48px;
 	width: 118px;
 }
+
+.scroller.settings-wrapper.settingspanel {
+	width: 577px;
+	height: 610px;
+}
 /* Server Settings */
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
     background: rgba(24, 24, 23, 0);
