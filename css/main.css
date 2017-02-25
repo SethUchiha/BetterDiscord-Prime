@@ -107,10 +107,7 @@ body {
     border:0px solid rgba(0,0,0,1);
 }
 
-
-
-.account .btn-deafen,
-.account .btn-mute {
+.account .btn-deafen, .account, .btn-mute {
     border-right:0px solid #000;
 }
 
