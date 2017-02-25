@@ -148,7 +148,6 @@ body {
 .account .account-details .discriminator {
     font-size: 20px;
 }
-
 .user-settings-modal.settings {
     background: rgba(24, 24, 23, 0);
 }
@@ -200,4 +199,3 @@ body {
 .form .control-groups {
     color: #a5afbb;
 }
-
