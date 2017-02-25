@@ -152,6 +152,8 @@ body {
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header  {
     background: rgba(24, 24, 23, 0);
     background: rgba(0,0,0,0);
+	height: 516px;
+	width: 128px;
 }
 
 .avatar-uploader .avatar-uploader-inner {
