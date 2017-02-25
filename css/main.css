@@ -149,24 +149,55 @@ body {
     font-size: 20px;
 }
 
-.settings-inner, .settings-actions {
-    background: #4169E1 !important;
-    border: 6px solid !important;
-    border-color: #4169E1 !important;
-    opacity:0.8;
+.user-settings-modal.settings {
+    background: rgba(24, 24, 23, 0);
 }
 
-.tab-bar-header, .tab-bar {
-    background: #4169E1 !important;
-    opacity:0.8;
+.settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header  {
+    background: rgba(24, 24, 23, 0);
+    background: rgba(0,0,0,0);
 }
 
-.tab-bar-item, .tab-bar-header {
-    color: black !important;
+.avatar-uploader .avatar-uploader-inner {
+    background-size: 124px 124px;
+    background-color: rgba(0,0,0,0);
+    width: 124px;
+    height: 124px;
+    border: 5px solid rgba(255,255,255,0.3);
 }
 
-#settings-username, #settings-email, #settings-current-password, #settings-new-password {
-    border: 2px solid !important;
-    border-color: black !important;
+.user-settings-modal-games .games-table .games-row .item-game .game-input {
+    color: #8c8c8c;
+}
+
+/* Server Settings */
+.settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
+    background: rgba(24, 24, 23, 0);
+    color: #fff;
+}
+
+.guild-settings-modal-members {
+    background-color: rgba(0,0,0,0);
+}
+.guild-settings-modal-members .guild-settings-modal-list .member .member-inner {
+    -webkit-filter: brightness(100%);
+}
+.guild-settings-modal-members .guild-settings-modal-list .member .bot-tag {
+    -webkit-filter: brightness(100%);
+}
+.guild-settings-modal-members .guild-settings-modal-list .member+.member {
+    border-top: 1px solid rgba(236,238,239,0.1);
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: transparent;
+    border: transparent;
+}
+.form .form-header, .form .form-inner, .form .form-actions {
+    background-color: transparent;
+    background: rgba(24, 24, 23, 0.75);
+}
+
+.form .control-groups {
+    color: #a5afbb;
 }
 
