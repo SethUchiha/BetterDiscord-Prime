@@ -166,24 +166,6 @@ body {
     color: #8c8c8c;
 }
 
-.bd-settings, .bd-themes, {
-	width: 171px;
-	height: 516px;
-}
-
-.bda-right {
-	height: 400px;
-	width: 117px;
-}
-.bda-left {
-	height: 102.48px;
-	width: 118px;
-}
-
-.scroller.settings-wrapper.settingspanel {
-	width: 577px;
-	height: 610px;
-}
 /* Server Settings */
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
     background: rgba(24, 24, 23, 0);
