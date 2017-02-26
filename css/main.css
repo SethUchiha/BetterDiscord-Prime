@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(https://i0.wp.com/versions.killscreen.com/wp-content/uploads/sites/2/2016/08/IOTx.jpg?fit=1920%2C1080&ssl=1) !important;
+    background: url(https://s15.postimg.org/5wyjnml63/IOTx.jpg) !important;
     background-size: cover !important;
 }
 .guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header, header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #voice-connection, .guild-,-modal-members {
