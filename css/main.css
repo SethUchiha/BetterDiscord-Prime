@@ -1,6 +1,10 @@
 .layers {
 	background: transparent !important
 }
+* {
+	font-family: Arial !important;
+	font-size: 12px !important;
+}
 /* Links must be HTTPS! */
 body {
     background: url(https://s12.postimg.org/ce78uvwz1/IMG_109177.jpg) !important;
@@ -8,6 +12,7 @@ body {
 }
 .guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header, header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #voice-connection, .guild-,-modal-members {
     background: none !important;
+	
 }
 .friends-row:hover, .friends-header > .tab-bar > .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, .channel-text.selected, .is-local-bot-message, .channel-textarea-inner, .markup code.inline, .markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller.guilds > .guild:hover, .roles > .scroller-wrap.fade > .scroller > ul > li:hover, .scroller > ul > li.selected, .scroller.channel-members > .member:hover, .scroller.guild-channels > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel:hover, .private-channels > .scroller-wrap > .scroller > .channel.selected, #autocomplete-popout > section > .scroller-wrap > .scroller, .scroller-wrap > .scroller > .search-result.selected, .scroller-wrap > .scroller > .search-result:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild > div > .guild-inner, .member.member-status.member-status-online.popout-open {
     background: rgba(0, 88, 117, .4) !important;
@@ -92,14 +97,15 @@ body {
 .channel-mute-button {
     filter: brightness(400%) !important;
 }
+
 /* Account and settings area */
 .account {
     z-index: 9;
-    border-top: 6px solid !important;
+    border-top: 4px solid !important;
     background: transparent;
     height: 120px;
     box-sizing: border-box;
-    color: #00FFFF;
+    color: #4169E1;
     position: relative;
 }
 
@@ -143,7 +149,7 @@ body {
 }
 
 .account .account-details .discriminator {
-    font-size: 20px;
+    font-size: 15px;
 }
 .user-settings-modal.settings {
     background: rgba(24, 24, 23, 0);
@@ -159,12 +165,33 @@ body {
     background-color: rgba(0,0,0,0);
     width: 124px;
     height: 124px;
-    border: 5px solid rgba(255,255,255,0.3);
+    border: 5px solid #4169E1;
 }
 
 .user-settings-modal-games .games-table .games-row .item-game .game-input {
     color: #8c8c8c;
 }
+
+.tab-bar.SIDE {
+	border-right: 0px !important;
+	opacity: 0px !important;
+}
+
+.scoller.settings-wrapper.settings-panel, .tab-bar-item {
+	border: 1px solid !important;
+	border-color: #4169E1 !important;
+	font-color: white !important;
+	font-size: 13px !important;
+	text-align: left !important;
+	font-family: Arial !important;
+}
+
+/* Line commented out for now, wanting to add small border to the following items. */
+/* .settings-username, .settings-email, .settings-current-password, {
+	border: 3px solid !important;
+	border-color: #4169E1 !important;
+}
+*/
 
 /* Server Settings */
 .settings .settings-inner, .user-settings-modal-games, .settings .settings-actions, .settings .settings-inner .settings-panel, .settings .settings-header {
@@ -200,3 +227,4 @@ body {
 .scroller.bda-description {
 overflow-y: hidden
 }
+
