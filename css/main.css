@@ -196,3 +196,7 @@ body {
 .form .control-groups {
     color: #a5afbb;
 }
+
+.scroller.bda-description {
+overflow-y: hidden
+}
