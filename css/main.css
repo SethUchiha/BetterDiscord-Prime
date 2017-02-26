@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(image here) !important;
+    background: url(https://kingofwallpapers.com/cyberpunk-wallpapers/cyberpunk-wallpapers-006.jpg) !important;
     background-size: cover !important;
 }
 .guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header, header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #voice-connection, .guild-,-modal-members {
